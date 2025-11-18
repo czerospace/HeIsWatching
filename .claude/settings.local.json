@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(go mod tidy:*)",
+      "Bash(go build:*)",
+      "Bash(./heiswatching-simple:*)",
+      "Bash(tree:*)",
+      "Bash(./face-processor-simple:*)",
+      "Bash(CGO_ENABLED=1 go build:*)",
+      "Bash(./face-detect:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
