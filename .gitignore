@@ -105,6 +105,7 @@ celerybeat.pid
 .env.development.local
 .env.test.local
 .env.production.local
+.venv
 
 # IDEs and editors
 .idea/
