@@ -9,7 +9,7 @@ import requests
 import time
 
 # 模型API配置
-API_URL = "http://192.168.101.131:18080/v1/chat/completions"
+API_URL = "http://10.2.69.242:18080/v1/chat/completions"
 MODEL_NAME = "qwen3-8b"
 
 def generate_essay():

@@ -12,9 +12,9 @@ import json
 from openai import OpenAI
 
 # 模型API配置
-API_URL = "http://192.168.101.180:30080/v1/chat/completions"
-MODEL_NAME = "qwen3-1.7b"
-API_KEY = "gpustack_1fbe163632cb5698_a8eddb7fc49ee0e56b24c559174b8ad1"
+API_URL = "http://10.2.69.242:18080/v1"
+MODEL_NAME = "qwen3-8b"
+API_KEY = ""
 
 # 创建OpenAI客户端
 client = OpenAI(base_url=API_URL, api_key=API_KEY)
